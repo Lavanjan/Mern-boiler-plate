@@ -1,0 +1,25 @@
+{
+  "name": "react-node",
+  "version": "1.0.0",
+  "description": "React node blogapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon index.js"
+  },
+  "author": "Lavanjan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9",
+    "npm": "^6.14.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
